@@ -1,0 +1,153 @@
+{
+    "uid": "229d4fe8-deca-4514-8140-926509068b90",
+    "name": "14_LightGBM_KMeansFeatures",
+    "preprocessing": [
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Dist_Cluster_9",
+                    "Dist_Cluster_10",
+                    "Cluster"
+                ],
+                "result_file": "14_LightGBM_KMeansFeatures/kmeans_fold_0.joblib",
+                "input_columns": [
+                    "District",
+                    "Area",
+                    "Year",
+                    "Max_Temp",
+                    "Min_Temp",
+                    "Rainfall",
+                    "Humidity",
+                    "Wind",
+                    "Cloud",
+                    "Bright Sunshine",
+                    "ALT"
+                ]
+            },
+            "scale_y": {
+                "scale": [
+                    0.1534822712135189
+                ],
+                "mean": [
+                    0.4755068971651617
+                ],
+                "var": [
+                    0.023556807576860177
+                ],
+                "n_samples_seen": 455,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.048499304
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression",
+                "kmeans_features": {
+                    "results_path": "AutoML_8"
+                }
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "3.2.1",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "b5c3e210-6ea6-4465-bd7c-e1e26b6a2f54",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "objective": "regression",
+                "num_leaves": 15,
+                "learning_rate": 0.05,
+                "feature_fraction": 0.8,
+                "bagging_fraction": 0.5,
+                "min_data_in_leaf": 50,
+                "metric": "rmse",
+                "custom_eval_metric_name": null,
+                "explain_level": 0
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude",
+                "scale_log_and_normal"
+            ],
+            "ml_task": "regression",
+            "kmeans_features": {
+                "results_path": "AutoML_8"
+            }
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.9,
+            "shuffle": true,
+            "X_path": "AutoML_8/X.data",
+            "y_path": "AutoML_8/y.data",
+            "results_path": "AutoML_8"
+        },
+        "learner": {
+            "model_type": "LightGBM",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "seed": 1235,
+            "objective": "regression",
+            "num_leaves": 15,
+            "learning_rate": 0.05,
+            "feature_fraction": 0.8,
+            "bagging_fraction": 0.5,
+            "min_data_in_leaf": 50,
+            "metric": "rmse",
+            "custom_eval_metric_name": null,
+            "explain_level": 0
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 0,
+        "name": "14_LightGBM_KMeansFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_kmeans_features",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "14_LightGBM_KMeansFeatures/learner_fold_0.lightgbm"
+    ],
+    "predictions_fname": "14_LightGBM_KMeansFeatures/predictions_validation.csv",
+    "metric_name": "rmse",
+    "final_loss": 0.09844394245251584,
+    "train_time": 0.9157593250274658,
+    "is_stacked": false
+}

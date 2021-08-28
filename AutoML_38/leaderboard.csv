@@ -1,0 +1,13 @@
+name,model_type,metric_type,metric_value,train_time
+1_DecisionTree,Decision Tree,rmse,0.17506811011382273,0.38
+2_DecisionTree,Decision Tree,rmse,1.2130741692244598,0.38
+3_DecisionTree,Decision Tree,rmse,0.13813540321818152,0.39
+4_Linear,Linear,rmse,0.1772704230402166,0.4
+5_Default_LightGBM,LightGBM,rmse,0.1149230739099319,0.77
+15_LightGBM,LightGBM,rmse,0.11113616787247126,0.67
+6_Xgboost,Xgboost,rmse,0.13209767072482811,0.56
+24_CatBoost,CatBoost,rmse,0.10599083164885655,1.09
+33_RandomForest,Random Forest,rmse,0.1411816097868266,0.73
+34_CatBoost,CatBoost,rmse,0.10074858551493585,1.45
+35_CatBoost,CatBoost,rmse,0.10957918822402087,0.95
+Ensemble,Ensemble,rmse,0.09316959811459488,0.29

@@ -1,0 +1,130 @@
+{
+    "fit_level": "finished",
+    "time_controller": {
+        "total_time_limit": 10,
+        "model_time_limit": null,
+        "steps": [
+            "simple_algorithms",
+            "default_algorithms",
+            "not_so_random",
+            "golden_features",
+            "insert_random_feature",
+            "features_selection",
+            "hill_climbing_1",
+            "hill_climbing_2",
+            "ensemble"
+        ],
+        "algorithms": [
+            "Linear",
+            "Random Forest",
+            "LightGBM",
+            "Xgboost",
+            "CatBoost",
+            "Neural Network"
+        ],
+        "spend": [
+            {
+                "model_name": "prepare_data",
+                "model_type": "prepare_data",
+                "fit_level": "prepare_data",
+                "train_time": 0.02190113067626953
+            },
+            {
+                "model_name": "1_Linear",
+                "model_type": "Linear",
+                "fit_level": "simple_algorithms",
+                "train_time": 29.75087881088257
+            }
+        ],
+        "is_hill_climbing": true,
+        "is_stacking": false
+    },
+    "all_params": {
+        "simple_algorithms": [
+            {
+                "additional": {
+                    "max_steps": 1,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "District": [
+                            "scale_normal"
+                        ],
+                        "Area": [
+                            "scale_normal"
+                        ],
+                        "Year": [
+                            "scale_normal"
+                        ],
+                        "Max_Temp": [
+                            "scale_normal"
+                        ],
+                        "Min_Temp": [
+                            "scale_normal"
+                        ],
+                        "Rainfall": [
+                            "scale_normal"
+                        ],
+                        "Humidity": [
+                            "scale_normal"
+                        ],
+                        "Wind": [
+                            "scale_normal"
+                        ],
+                        "Cloud": [
+                            "scale_normal"
+                        ],
+                        "Bright Sunshine": [
+                            "scale_normal"
+                        ],
+                        "ALT": [
+                            "scale_normal"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "scale_log_and_normal"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "X_path": "AutoML_1/X.data",
+                    "y_path": "AutoML_1/y.data",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Linear",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "1_Linear",
+                "status": "trained",
+                "final_loss": 0.22304938378505587,
+                "train_time": 29.988721132278442,
+                "data_type": "original",
+                "max_time_for_learner": 60
+            }
+        ],
+        "ensemble": [
+            {
+                "model_type": "ensemble",
+                "is_stacked": false,
+                "name": "Ensemble",
+                "status": "skipped",
+                "final_loss": 0.22304938378505587,
+                "train_time": 29.988721132278442
+            }
+        ]
+    },
+    "adjust_validation": false
+}

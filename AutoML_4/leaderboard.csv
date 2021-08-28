@@ -1,0 +1,35 @@
+name,model_type,metric_type,metric_value,train_time
+1_DecisionTree,Decision Tree,rmse,0.30285984782863046,2.3
+2_DecisionTree,Decision Tree,rmse,0.2976720277214298,2.15
+3_DecisionTree,Decision Tree,rmse,0.2976720277214298,2.25
+4_Linear,Linear,rmse,0.2223425618031142,2.51
+5_Default_LightGBM,LightGBM,rmse,0.20271583790067232,3.34
+6_Default_Xgboost,Xgboost,rmse,0.20471925433431465,5.64
+7_Default_CatBoost,CatBoost,rmse,0.20150551664437225,4.46
+8_Default_NeuralNetwork,Neural Network,rmse,0.23969892152679065,3.14
+9_Default_RandomForest,Random Forest,rmse,0.2281724469192699,7.06
+10_Default_ExtraTrees,Extra Trees,rmse,0.21893614750162574,5.14
+11_Default_NearestNeighbors,Nearest Neighbors,rmse,0.21907834775004453,2.99
+21_LightGBM,LightGBM,rmse,0.19949113112542705,3.49
+12_Xgboost,Xgboost,rmse,0.20512865371516062,6.14
+30_CatBoost,CatBoost,rmse,0.2014714238964495,10.35
+39_RandomForest,Random Forest,rmse,0.21850451354734274,6.19
+48_ExtraTrees,Extra Trees,rmse,0.22614246561182713,5.52
+57_NeuralNetwork,Neural Network,rmse,0.22585050994784855,3.61
+66_NearestNeighbors,Nearest Neighbors,rmse,0.21657059078036067,3.51
+22_LightGBM,LightGBM,rmse,0.20501653177877407,3.93
+13_Xgboost,Xgboost,rmse,0.20574820656642107,6.14
+31_CatBoost,CatBoost,rmse,0.20876342172563378,5.69
+40_RandomForest,Random Forest,rmse,0.22716910574526733,6.64
+49_ExtraTrees,Extra Trees,rmse,0.23137397596654205,7.15
+58_NeuralNetwork,Neural Network,rmse,0.21873167699765073,4.65
+67_NearestNeighbors,Nearest Neighbors,rmse,0.2153041888307822,4.14
+23_LightGBM,LightGBM,rmse,0.2025985394401707,4.52
+14_Xgboost,Xgboost,rmse,0.20019287869903568,6.52
+32_CatBoost,CatBoost,rmse,0.20177133765773397,6.63
+41_RandomForest,Random Forest,rmse,0.2193198288401496,6.58
+50_ExtraTrees,Extra Trees,rmse,0.22025460782286257,7.75
+59_NeuralNetwork,Neural Network,rmse,0.23005636165362808,5.61
+68_NearestNeighbors,Nearest Neighbors,rmse,0.2153041888307822,4.44
+24_LightGBM,LightGBM,rmse,0.20442821806000486,5.51
+15_Xgboost,Xgboost,rmse,0.20587345689656483,5.03

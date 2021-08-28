@@ -1,0 +1,1288 @@
+{
+    "uid": "f65b6012-93f4-419b-9cee-35da0e256a5f",
+    "name": "66_NearestNeighbors",
+    "preprocessing": [
+        {
+            "scale": [
+                {
+                    "scale": [
+                        5.037085507211058,
+                        324481.4020470194,
+                        12.564988360363703,
+                        0.9977190693995315,
+                        1.3479033972908037,
+                        16.528396238377876,
+                        4.212754362031227,
+                        0.6461421678678172,
+                        0.43373434844047964,
+                        0.9459064591229692,
+                        14.843785854862347
+                    ],
+                    "mean": [
+                        8.962637362637363,
+                        643663.4967032967,
+                        1992.4571428571428,
+                        29.836064269274726,
+                        14.869796477846153,
+                        15.309220199290108,
+                        77.43096950476922,
+                        0.7851689073560439,
+                        1.3099593058175822,
+                        7.242874918738462,
+                        16.021978021978022
+                    ],
+                    "var": [
+                        25.372230406955683,
+                        105288180274.39943,
+                        157.87893249607535,
+                        0.995443341443467,
+                        1.8168435684280901,
+                        273.187882212824,
+                        17.74729931481313,
+                        0.41749970109692247,
+                        0.1881254850170874,
+                        0.8947390294105534,
+                        220.33797850501148
+                    ],
+                    "n_samples_seen": 455,
+                    "n_features_in": 11,
+                    "columns": [
+                        "District",
+                        "Area",
+                        "Year",
+                        "Max_Temp",
+                        "Min_Temp",
+                        "Rainfall",
+                        "Humidity",
+                        "Wind",
+                        "Cloud",
+                        "Bright Sunshine",
+                        "ALT"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "District": [
+                        "scale_normal"
+                    ],
+                    "Area": [
+                        "scale_normal"
+                    ],
+                    "Year": [
+                        "scale_normal"
+                    ],
+                    "Max_Temp": [
+                        "scale_normal"
+                    ],
+                    "Min_Temp": [
+                        "scale_normal"
+                    ],
+                    "Rainfall": [
+                        "scale_normal"
+                    ],
+                    "Humidity": [
+                        "scale_normal"
+                    ],
+                    "Wind": [
+                        "scale_normal"
+                    ],
+                    "Cloud": [
+                        "scale_normal"
+                    ],
+                    "Bright Sunshine": [
+                        "scale_normal"
+                    ],
+                    "ALT": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        4.988255739900609,
+                        324933.1880828831,
+                        12.734545390344966,
+                        0.9865906069340917,
+                        1.3375299272156351,
+                        15.649879248400824,
+                        4.236159554617079,
+                        0.6291141126161346,
+                        0.42851055636712343,
+                        0.942689321823803,
+                        15.036030469947887
+                    ],
+                    "mean": [
+                        9.054945054945055,
+                        642119.2373626374,
+                        1991.975824175824,
+                        29.819287727296707,
+                        14.847745232395603,
+                        15.071124893074725,
+                        77.33463252316483,
+                        0.7936670758615384,
+                        1.3086772545406593,
+                        7.261076935215385,
+                        16.47252747252747
+                    ],
+                    "var": [
+                        24.88269532665137,
+                        105581576717.70628,
+                        162.16864629875622,
+                        0.9733610256905795,
+                        1.7889863061974622,
+                        244.91872048952675,
+                        17.945047772173574,
+                        0.39578456669278644,
+                        0.18362129691806164,
+                        0.8886631574806217,
+                        226.08221229320128
+                    ],
+                    "n_samples_seen": 455,
+                    "n_features_in": 11,
+                    "columns": [
+                        "District",
+                        "Area",
+                        "Year",
+                        "Max_Temp",
+                        "Min_Temp",
+                        "Rainfall",
+                        "Humidity",
+                        "Wind",
+                        "Cloud",
+                        "Bright Sunshine",
+                        "ALT"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "District": [
+                        "scale_normal"
+                    ],
+                    "Area": [
+                        "scale_normal"
+                    ],
+                    "Year": [
+                        "scale_normal"
+                    ],
+                    "Max_Temp": [
+                        "scale_normal"
+                    ],
+                    "Min_Temp": [
+                        "scale_normal"
+                    ],
+                    "Rainfall": [
+                        "scale_normal"
+                    ],
+                    "Humidity": [
+                        "scale_normal"
+                    ],
+                    "Wind": [
+                        "scale_normal"
+                    ],
+                    "Cloud": [
+                        "scale_normal"
+                    ],
+                    "Bright Sunshine": [
+                        "scale_normal"
+                    ],
+                    "ALT": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        5.075107424729012,
+                        327931.0303146198,
+                        12.719941185225073,
+                        1.0035067191330345,
+                        1.3501410393062945,
+                        16.642061359584847,
+                        4.213155153578149,
+                        0.6521257227957497,
+                        0.43193966807158984,
+                        0.9483192035962188,
+                        15.284037638827746
+                    ],
+                    "mean": [
+                        9.09010989010989,
+                        640747.0263736264,
+                        1992.4813186813187,
+                        29.820826174043955,
+                        14.864192082285715,
+                        15.434494945789009,
+                        77.28591455975823,
+                        0.8024582868483516,
+                        1.304574691901099,
+                        7.242759922841757,
+                        16.734065934065935
+                    ],
+                    "var": [
+                        25.756715372539546,
+                        107538760643.2081,
+                        161.79690375558505,
+                        1.0070257353451468,
+                        1.8228808260190812,
+                        276.95820629618703,
+                        17.750676348122113,
+                        0.42526795833187897,
+                        0.18657187685379523,
+                        0.8993093119093666,
+                        233.60180654510322
+                    ],
+                    "n_samples_seen": 455,
+                    "n_features_in": 11,
+                    "columns": [
+                        "District",
+                        "Area",
+                        "Year",
+                        "Max_Temp",
+                        "Min_Temp",
+                        "Rainfall",
+                        "Humidity",
+                        "Wind",
+                        "Cloud",
+                        "Bright Sunshine",
+                        "ALT"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "District": [
+                        "scale_normal"
+                    ],
+                    "Area": [
+                        "scale_normal"
+                    ],
+                    "Year": [
+                        "scale_normal"
+                    ],
+                    "Max_Temp": [
+                        "scale_normal"
+                    ],
+                    "Min_Temp": [
+                        "scale_normal"
+                    ],
+                    "Rainfall": [
+                        "scale_normal"
+                    ],
+                    "Humidity": [
+                        "scale_normal"
+                    ],
+                    "Wind": [
+                        "scale_normal"
+                    ],
+                    "Cloud": [
+                        "scale_normal"
+                    ],
+                    "Bright Sunshine": [
+                        "scale_normal"
+                    ],
+                    "ALT": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        5.025417823085214,
+                        326571.4031996086,
+                        12.639668017144484,
+                        1.007855034069811,
+                        1.3186675544898487,
+                        16.369214251522177,
+                        4.206973436049735,
+                        0.5967312712107193,
+                        0.4257408987355296,
+                        0.950492932671158,
+                        14.883888080105729
+                    ],
+                    "mean": [
+                        9.010989010989011,
+                        648223.2417582418,
+                        1992.298901098901,
+                        29.82624741953846,
+                        14.85628000901099,
+                        15.14731545131209,
+                        77.32400979791207,
+                        0.7768172612021977,
+                        1.3048677336615386,
+                        7.2551738226043945,
+                        16.27252747252747
+                    ],
+                    "var": [
+                        25.254824296582537,
+                        106648881387.76134,
+                        159.76120758362518,
+                        1.0157717696998596,
+                        1.738884119264238,
+                        267.9511752122367,
+                        17.698625491628107,
+                        0.35608821004076113,
+                        0.18125531285613647,
+                        0.9034368150578184,
+                        221.53012438111338
+                    ],
+                    "n_samples_seen": 455,
+                    "n_features_in": 11,
+                    "columns": [
+                        "District",
+                        "Area",
+                        "Year",
+                        "Max_Temp",
+                        "Min_Temp",
+                        "Rainfall",
+                        "Humidity",
+                        "Wind",
+                        "Cloud",
+                        "Bright Sunshine",
+                        "ALT"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "District": [
+                        "scale_normal"
+                    ],
+                    "Area": [
+                        "scale_normal"
+                    ],
+                    "Year": [
+                        "scale_normal"
+                    ],
+                    "Max_Temp": [
+                        "scale_normal"
+                    ],
+                    "Min_Temp": [
+                        "scale_normal"
+                    ],
+                    "Rainfall": [
+                        "scale_normal"
+                    ],
+                    "Humidity": [
+                        "scale_normal"
+                    ],
+                    "Wind": [
+                        "scale_normal"
+                    ],
+                    "Cloud": [
+                        "scale_normal"
+                    ],
+                    "Bright Sunshine": [
+                        "scale_normal"
+                    ],
+                    "ALT": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        5.062466454035714,
+                        324703.4698322476,
+                        12.588892043148558,
+                        1.0103850729128774,
+                        1.3460182415326987,
+                        16.435154314461936,
+                        4.25776998266287,
+                        0.6465780457867812,
+                        0.42485285138554363,
+                        0.9361139353628286,
+                        14.340512988179988
+                    ],
+                    "mean": [
+                        8.997802197802198,
+                        654050.723076923,
+                        1992.1846153846154,
+                        29.807309683230766,
+                        14.847122499846154,
+                        15.312883203727472,
+                        77.39250795903294,
+                        0.7920187256791208,
+                        1.300252346120879,
+                        7.258648828679121,
+                        15.984615384615385
+                    ],
+                    "var": [
+                        25.62856659823693,
+                        105432343321.10133,
+                        158.48020287404907,
+                        1.0208779955651606,
+                        1.8117651065387785,
+                        270.11429734017685,
+                        18.128605225264977,
+                        0.418063169293453,
+                        0.18049994533042682,
+                        0.876309299980482,
+                        205.6503127641589
+                    ],
+                    "n_samples_seen": 455,
+                    "n_features_in": 11,
+                    "columns": [
+                        "District",
+                        "Area",
+                        "Year",
+                        "Max_Temp",
+                        "Min_Temp",
+                        "Rainfall",
+                        "Humidity",
+                        "Wind",
+                        "Cloud",
+                        "Bright Sunshine",
+                        "ALT"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "District": [
+                        "scale_normal"
+                    ],
+                    "Area": [
+                        "scale_normal"
+                    ],
+                    "Year": [
+                        "scale_normal"
+                    ],
+                    "Max_Temp": [
+                        "scale_normal"
+                    ],
+                    "Min_Temp": [
+                        "scale_normal"
+                    ],
+                    "Rainfall": [
+                        "scale_normal"
+                    ],
+                    "Humidity": [
+                        "scale_normal"
+                    ],
+                    "Wind": [
+                        "scale_normal"
+                    ],
+                    "Cloud": [
+                        "scale_normal"
+                    ],
+                    "Bright Sunshine": [
+                        "scale_normal"
+                    ],
+                    "ALT": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        5.056722095671852,
+                        330159.03441964556,
+                        12.692644303609264,
+                        1.0292863128711416,
+                        1.3531537498985453,
+                        16.43653210568955,
+                        4.3026157356701065,
+                        0.5971675905519559,
+                        0.42939292384799066,
+                        0.9224791641308665,
+                        15.093099001974238
+                    ],
+                    "mean": [
+                        9.098901098901099,
+                        651918.8263736264,
+                        1992.0087912087913,
+                        29.819010937648354,
+                        14.869780190505494,
+                        15.423424504716484,
+                        77.33312660701098,
+                        0.778315020498901,
+                        1.3009157582439559,
+                        7.260787630118682,
+                        16.503296703296705
+                    ],
+                    "var": [
+                        25.570438352855934,
+                        109004988008.9127,
+                        161.1032194179447,
+                        1.0594303138638697,
+                        1.8310250708644946,
+                        270.1595876613634,
+                        18.51250216883601,
+                        0.3566091312056284,
+                        0.1843782830507263,
+                        0.850967808255582,
+                        227.80163748339572
+                    ],
+                    "n_samples_seen": 455,
+                    "n_features_in": 11,
+                    "columns": [
+                        "District",
+                        "Area",
+                        "Year",
+                        "Max_Temp",
+                        "Min_Temp",
+                        "Rainfall",
+                        "Humidity",
+                        "Wind",
+                        "Cloud",
+                        "Bright Sunshine",
+                        "ALT"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "District": [
+                        "scale_normal"
+                    ],
+                    "Area": [
+                        "scale_normal"
+                    ],
+                    "Year": [
+                        "scale_normal"
+                    ],
+                    "Max_Temp": [
+                        "scale_normal"
+                    ],
+                    "Min_Temp": [
+                        "scale_normal"
+                    ],
+                    "Rainfall": [
+                        "scale_normal"
+                    ],
+                    "Humidity": [
+                        "scale_normal"
+                    ],
+                    "Wind": [
+                        "scale_normal"
+                    ],
+                    "Cloud": [
+                        "scale_normal"
+                    ],
+                    "Bright Sunshine": [
+                        "scale_normal"
+                    ],
+                    "ALT": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        5.022042345326428,
+                        322800.8097643446,
+                        12.565255951442825,
+                        0.9941115440785404,
+                        1.3373687147005928,
+                        16.248847397497272,
+                        4.173217231651813,
+                        0.6327405822375307,
+                        0.40819978464753714,
+                        0.9047539932278909,
+                        15.199532136293003
+                    ],
+                    "mean": [
+                        8.975877192982455,
+                        644775.3486842106,
+                        1992.3508771929824,
+                        29.82125564892544,
+                        14.906046916842103,
+                        15.061484803425438,
+                        77.3289878694079,
+                        0.7833373973267544,
+                        1.2967795712368422,
+                        7.282070866844298,
+                        16.42982456140351
+                    ],
+                    "var": [
+                        25.22090931825177,
+                        104200362784.51659,
+                        157.88565712526935,
+                        0.9882577620702198,
+                        1.7885550790599156,
+                        264.02504174715386,
+                        17.415742062555616,
+                        0.40036064441028935,
+                        0.16662706418629572,
+                        0.8185797882618144,
+                        231.02577716220375
+                    ],
+                    "n_samples_seen": 456,
+                    "n_features_in": 11,
+                    "columns": [
+                        "District",
+                        "Area",
+                        "Year",
+                        "Max_Temp",
+                        "Min_Temp",
+                        "Rainfall",
+                        "Humidity",
+                        "Wind",
+                        "Cloud",
+                        "Bright Sunshine",
+                        "ALT"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "District": [
+                        "scale_normal"
+                    ],
+                    "Area": [
+                        "scale_normal"
+                    ],
+                    "Year": [
+                        "scale_normal"
+                    ],
+                    "Max_Temp": [
+                        "scale_normal"
+                    ],
+                    "Min_Temp": [
+                        "scale_normal"
+                    ],
+                    "Rainfall": [
+                        "scale_normal"
+                    ],
+                    "Humidity": [
+                        "scale_normal"
+                    ],
+                    "Wind": [
+                        "scale_normal"
+                    ],
+                    "Cloud": [
+                        "scale_normal"
+                    ],
+                    "Bright Sunshine": [
+                        "scale_normal"
+                    ],
+                    "ALT": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        5.0451786032924275,
+                        324542.2268687601,
+                        12.646599370832966,
+                        0.9847691446976463,
+                        1.3495226342776283,
+                        15.937849085071761,
+                        4.197391537160068,
+                        0.6528280200370067,
+                        0.4279352772103902,
+                        0.9366539729203527,
+                        15.072240632139941
+                    ],
+                    "mean": [
+                        9.094298245614034,
+                        642508.8114035088,
+                        1992.453947368421,
+                        29.843733726425437,
+                        14.915988466644736,
+                        15.255179525616228,
+                        77.29040450589912,
+                        0.8016488023026316,
+                        1.308694778107456,
+                        7.236778799769737,
+                        16.342105263157894
+                    ],
+                    "var": [
+                        25.453827139119728,
+                        105327657020.93373,
+                        159.93647564635276,
+                        0.9697702683485339,
+                        1.8212113404276293,
+                        254.0150334585228,
+                        17.618095716222957,
+                        0.42618442374543836,
+                        0.1831286014811335,
+                        0.8773206649874808,
+                        227.17243767313022
+                    ],
+                    "n_samples_seen": 456,
+                    "n_features_in": 11,
+                    "columns": [
+                        "District",
+                        "Area",
+                        "Year",
+                        "Max_Temp",
+                        "Min_Temp",
+                        "Rainfall",
+                        "Humidity",
+                        "Wind",
+                        "Cloud",
+                        "Bright Sunshine",
+                        "ALT"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "District": [
+                        "scale_normal"
+                    ],
+                    "Area": [
+                        "scale_normal"
+                    ],
+                    "Year": [
+                        "scale_normal"
+                    ],
+                    "Max_Temp": [
+                        "scale_normal"
+                    ],
+                    "Min_Temp": [
+                        "scale_normal"
+                    ],
+                    "Rainfall": [
+                        "scale_normal"
+                    ],
+                    "Humidity": [
+                        "scale_normal"
+                    ],
+                    "Wind": [
+                        "scale_normal"
+                    ],
+                    "Cloud": [
+                        "scale_normal"
+                    ],
+                    "Bright Sunshine": [
+                        "scale_normal"
+                    ],
+                    "ALT": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        5.072136128357166,
+                        325752.50274483435,
+                        12.573018304341936,
+                        1.009498078100175,
+                        1.332012047935179,
+                        16.00652457839398,
+                        4.2266504785759285,
+                        0.6134444414607804,
+                        0.43221707384004004,
+                        0.928717486022552,
+                        15.344585176679846
+                    ],
+                    "mean": [
+                        9.089912280701755,
+                        640066.7938596491,
+                        1992.1995614035088,
+                        29.836752710285086,
+                        14.862041090921052,
+                        15.512489459804828,
+                        77.2754191258114,
+                        0.7822774558070176,
+                        1.318088051497807,
+                        7.264271739703948,
+                        16.614035087719298
+                    ],
+                    "var": [
+                        25.726564904586027,
+                        106114693044.5233,
+                        158.08078928131738,
+                        1.019086369687947,
+                        1.7742560958444695,
+                        256.20882907873056,
+                        17.864574268046127,
+                        0.3763140827591288,
+                        0.18681159891884663,
+                        0.862516168844049,
+                        235.4562942443829
+                    ],
+                    "n_samples_seen": 456,
+                    "n_features_in": 11,
+                    "columns": [
+                        "District",
+                        "Area",
+                        "Year",
+                        "Max_Temp",
+                        "Min_Temp",
+                        "Rainfall",
+                        "Humidity",
+                        "Wind",
+                        "Cloud",
+                        "Bright Sunshine",
+                        "ALT"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "District": [
+                        "scale_normal"
+                    ],
+                    "Area": [
+                        "scale_normal"
+                    ],
+                    "Year": [
+                        "scale_normal"
+                    ],
+                    "Max_Temp": [
+                        "scale_normal"
+                    ],
+                    "Min_Temp": [
+                        "scale_normal"
+                    ],
+                    "Rainfall": [
+                        "scale_normal"
+                    ],
+                    "Humidity": [
+                        "scale_normal"
+                    ],
+                    "Wind": [
+                        "scale_normal"
+                    ],
+                    "Cloud": [
+                        "scale_normal"
+                    ],
+                    "Bright Sunshine": [
+                        "scale_normal"
+                    ],
+                    "ALT": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        5.140440223611279,
+                        325854.8748970904,
+                        12.721856215863337,
+                        1.0118429659739323,
+                        1.3378412003208076,
+                        16.269766473246097,
+                        4.205833831872724,
+                        0.6483412039211394,
+                        0.4328521849978642,
+                        0.945730376321351,
+                        15.052926625487329
+                    ],
+                    "mean": [
+                        9.05921052631579,
+                        651836.745614035,
+                        1992.1184210526317,
+                        29.80287113138158,
+                        14.844497216578947,
+                        15.009565483245614,
+                        77.42490742252193,
+                        0.7972628366557017,
+                        1.3031392225570175,
+                        7.2579371230482455,
+                        16.57675438596491
+                    ],
+                    "var": [
+                        26.424125692520775,
+                        106181399494.19844,
+                        161.84562557710063,
+                        1.0238261877909243,
+                        1.7898190772758191,
+                        264.70530109396276,
+                        17.689038221325198,
+                        0.42034631670191247,
+                        0.18736101405742525,
+                        0.8944059446969242,
+                        226.59059999230533
+                    ],
+                    "n_samples_seen": 456,
+                    "n_features_in": 11,
+                    "columns": [
+                        "District",
+                        "Area",
+                        "Year",
+                        "Max_Temp",
+                        "Min_Temp",
+                        "Rainfall",
+                        "Humidity",
+                        "Wind",
+                        "Cloud",
+                        "Bright Sunshine",
+                        "ALT"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "District": [
+                        "scale_normal"
+                    ],
+                    "Area": [
+                        "scale_normal"
+                    ],
+                    "Year": [
+                        "scale_normal"
+                    ],
+                    "Max_Temp": [
+                        "scale_normal"
+                    ],
+                    "Min_Temp": [
+                        "scale_normal"
+                    ],
+                    "Rainfall": [
+                        "scale_normal"
+                    ],
+                    "Humidity": [
+                        "scale_normal"
+                    ],
+                    "Wind": [
+                        "scale_normal"
+                    ],
+                    "Cloud": [
+                        "scale_normal"
+                    ],
+                    "Bright Sunshine": [
+                        "scale_normal"
+                    ],
+                    "ALT": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "regression"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "0.24.2",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "0fb221fa-5c06-473c-8a48-34a898756379",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1236,
+                "n_neighbors": 7,
+                "weights": "uniform",
+                "explain_level": 0
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "0.24.2",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "2895558b-b043-4a30-a9aa-cad9ac83a27b",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1236,
+                "n_neighbors": 7,
+                "weights": "uniform",
+                "explain_level": 0
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "0.24.2",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "c043e44c-59f7-4828-a243-9e19ea51eb63",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1236,
+                "n_neighbors": 7,
+                "weights": "uniform",
+                "explain_level": 0
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "0.24.2",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "ff22a51e-c60c-4a40-9c99-c1bb3d358fc5",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1236,
+                "n_neighbors": 7,
+                "weights": "uniform",
+                "explain_level": 0
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "0.24.2",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "81763adc-9a73-4e2f-a7b5-640c34f53600",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1236,
+                "n_neighbors": 7,
+                "weights": "uniform",
+                "explain_level": 0
+            },
+            "name": "learner_fold_4"
+        },
+        {
+            "library_version": "0.24.2",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "619c0d79-5b0d-41d5-aab2-d5d97f7d7765",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1236,
+                "n_neighbors": 7,
+                "weights": "uniform",
+                "explain_level": 0
+            },
+            "name": "learner_fold_5"
+        },
+        {
+            "library_version": "0.24.2",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "8df9e908-8bd5-492d-acdb-2db4beaa1ad3",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1236,
+                "n_neighbors": 7,
+                "weights": "uniform",
+                "explain_level": 0
+            },
+            "name": "learner_fold_6"
+        },
+        {
+            "library_version": "0.24.2",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "0a11ee59-8ee6-4dcf-b679-002412feedf7",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1236,
+                "n_neighbors": 7,
+                "weights": "uniform",
+                "explain_level": 0
+            },
+            "name": "learner_fold_7"
+        },
+        {
+            "library_version": "0.24.2",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "61225d97-5edd-4a75-af0c-9a0dec8b7ca9",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1236,
+                "n_neighbors": 7,
+                "weights": "uniform",
+                "explain_level": 0
+            },
+            "name": "learner_fold_8"
+        },
+        {
+            "library_version": "0.24.2",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "af96122f-ef78-43af-bbd1-53352ab5bd4e",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1236,
+                "n_neighbors": 7,
+                "weights": "uniform",
+                "explain_level": 0
+            },
+            "name": "learner_fold_9"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rows_limit": 100000,
+            "max_cols_limit": 100
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "District": [
+                    "scale_normal"
+                ],
+                "Area": [
+                    "scale_normal"
+                ],
+                "Year": [
+                    "scale_normal"
+                ],
+                "Max_Temp": [
+                    "scale_normal"
+                ],
+                "Min_Temp": [
+                    "scale_normal"
+                ],
+                "Rainfall": [
+                    "scale_normal"
+                ],
+                "Humidity": [
+                    "scale_normal"
+                ],
+                "Wind": [
+                    "scale_normal"
+                ],
+                "Cloud": [
+                    "scale_normal"
+                ],
+                "Bright Sunshine": [
+                    "scale_normal"
+                ],
+                "ALT": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "regression"
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "shuffle": true,
+            "X_path": "AutoML_6/X.data",
+            "y_path": "AutoML_6/y.data",
+            "results_path": "AutoML_6",
+            "k_folds": 10
+        },
+        "learner": {
+            "model_type": "Nearest Neighbors",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "seed": 1236,
+            "n_neighbors": 7,
+            "weights": "uniform",
+            "explain_level": 0
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 0,
+        "name": "66_NearestNeighbors",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "66_NearestNeighbors/learner_fold_0.k_neighbors",
+        "66_NearestNeighbors/learner_fold_1.k_neighbors",
+        "66_NearestNeighbors/learner_fold_2.k_neighbors",
+        "66_NearestNeighbors/learner_fold_3.k_neighbors",
+        "66_NearestNeighbors/learner_fold_4.k_neighbors",
+        "66_NearestNeighbors/learner_fold_5.k_neighbors",
+        "66_NearestNeighbors/learner_fold_6.k_neighbors",
+        "66_NearestNeighbors/learner_fold_7.k_neighbors",
+        "66_NearestNeighbors/learner_fold_8.k_neighbors",
+        "66_NearestNeighbors/learner_fold_9.k_neighbors"
+    ],
+    "predictions_fname": "66_NearestNeighbors/predictions_out_of_folds.csv",
+    "metric_name": "rmse",
+    "final_loss": 0.21657059078036067,
+    "train_time": 2.737149953842163,
+    "is_stacked": false
+}

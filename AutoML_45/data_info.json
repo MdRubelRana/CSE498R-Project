@@ -1,0 +1,62 @@
+{
+    "columns": [
+        "District",
+        "Area",
+        "Year",
+        "Max_Temp",
+        "Min_Temp",
+        "Rainfall",
+        "Humidity",
+        "Wind",
+        "Cloud",
+        "Sunshine",
+        "ALT",
+        "Productions"
+    ],
+    "rows": 459,
+    "cols": 12,
+    "target_is_numeric": true,
+    "columns_info": {
+        "District": [
+            "scale"
+        ],
+        "Area": [
+            "scale"
+        ],
+        "Year": [
+            "scale"
+        ],
+        "Max_Temp": [
+            "scale"
+        ],
+        "Min_Temp": [
+            "scale"
+        ],
+        "Rainfall": [
+            "scale"
+        ],
+        "Humidity": [
+            "scale"
+        ],
+        "Wind": [
+            "scale"
+        ],
+        "Cloud": [
+            "scale"
+        ],
+        "Sunshine": [
+            "scale"
+        ],
+        "ALT": [
+            "scale"
+        ],
+        "Productions": [
+            "scale"
+        ]
+    },
+    "target_info": [
+        "scale_log"
+    ],
+    "n_features": 12,
+    "is_sample_weighted": false
+}

@@ -1,0 +1,2 @@
+name,model_type,metric_type,metric_value,train_time,single_prediction_time
+1_Linear,Linear,rmse,0.22304938378505587,29.99,0.0547

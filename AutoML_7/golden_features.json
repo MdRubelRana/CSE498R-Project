@@ -1,0 +1,77 @@
+{
+    "new_features": [
+        {
+            "feature1": "Cloud",
+            "feature2": "Year",
+            "operation": "sum",
+            "score": 0.6681907784
+        },
+        {
+            "feature1": "Year",
+            "feature2": "Min_Temp",
+            "operation": "diff",
+            "score": 0.6703083748
+        },
+        {
+            "feature1": "Wind",
+            "feature2": "Year",
+            "operation": "sum",
+            "score": 0.6879439748
+        },
+        {
+            "feature1": "Humidity",
+            "feature2": "Year",
+            "operation": "sum",
+            "score": 0.6970300442
+        },
+        {
+            "feature1": "Bright Sunshine",
+            "feature2": "Year",
+            "operation": "sum",
+            "score": 0.7120812006
+        },
+        {
+            "feature1": "Year",
+            "feature2": "Bright Sunshine",
+            "operation": "diff",
+            "score": 0.712831615
+        },
+        {
+            "feature1": "Max_Temp",
+            "feature2": "Year",
+            "operation": "sum",
+            "score": 0.7156960703
+        },
+        {
+            "feature1": "Year",
+            "feature2": "Wind",
+            "operation": "diff",
+            "score": 0.7208843074
+        },
+        {
+            "feature1": "Year",
+            "feature2": "Max_Temp",
+            "operation": "diff",
+            "score": 0.7266303225
+        },
+        {
+            "feature1": "Year",
+            "feature2": "Cloud",
+            "operation": "diff",
+            "score": 0.7278824531
+        }
+    ],
+    "new_columns": [
+        "Cloud_sum_Year",
+        "Year_diff_Min_Temp",
+        "Wind_sum_Year",
+        "Humidity_sum_Year",
+        "Bright Sunshine_sum_Year",
+        "Year_diff_Bright Sunshine",
+        "Max_Temp_sum_Year",
+        "Year_diff_Wind",
+        "Year_diff_Max_Temp",
+        "Year_diff_Cloud"
+    ],
+    "ml_task": "regression"
+}

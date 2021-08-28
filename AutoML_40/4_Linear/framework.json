@@ -1,0 +1,237 @@
+{
+    "uid": "33649aaa-d02c-4004-a8c7-992796f27b8f",
+    "name": "4_Linear",
+    "preprocessing": [
+        {
+            "scale": [
+                {
+                    "scale": [
+                        4.962211926691679,
+                        30771.10339940035,
+                        11.995696675230187,
+                        0.970997908896733,
+                        1.250115079613162,
+                        15.225975365585915,
+                        4.644531927781127,
+                        0.5460318173793336,
+                        0.3639115593751952,
+                        0.7789758273616366,
+                        13.577945697131184,
+                        30771.10339940035
+                    ],
+                    "mean": [
+                        9.239808153477219,
+                        20881.57793764988,
+                        1990.988009592326,
+                        30.225539568345322,
+                        14.774760191846523,
+                        17.34716841911271,
+                        75.47308307201439,
+                        0.8038369304556354,
+                        1.3765587529976018,
+                        7.39139923805036,
+                        16.381294964028775,
+                        20881.57793764988
+                    ],
+                    "var": [
+                        24.623547205401145,
+                        946860804.4165876,
+                        143.89673872412857,
+                        0.9428369390818281,
+                        1.5627877122762222,
+                        231.83032583342913,
+                        21.571676828178273,
+                        0.2981507455905779,
+                        0.13243162304688624,
+                        0.6068033396137463,
+                        184.36060935424325,
+                        946860804.4165876
+                    ],
+                    "n_samples_seen": 417,
+                    "n_features_in": 12,
+                    "columns": [
+                        "District",
+                        "Area",
+                        "Year",
+                        "Max_Temp",
+                        "Min_Temp",
+                        "Rainfall",
+                        "Humidity",
+                        "Wind",
+                        "Cloud",
+                        "Sunshine",
+                        "ALT",
+                        "Productions"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    0.3590082135102069
+                ],
+                "mean": [
+                    1.4448382401554452
+                ],
+                "var": [
+                    0.1288868973677903
+                ],
+                "n_samples_seen": 417,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.684172837
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "District": [
+                        "scale_normal"
+                    ],
+                    "Area": [
+                        "scale_normal"
+                    ],
+                    "Year": [
+                        "scale_normal"
+                    ],
+                    "Max_Temp": [
+                        "scale_normal"
+                    ],
+                    "Min_Temp": [
+                        "scale_normal"
+                    ],
+                    "Rainfall": [
+                        "scale_normal"
+                    ],
+                    "Humidity": [
+                        "scale_normal"
+                    ],
+                    "Wind": [
+                        "scale_normal"
+                    ],
+                    "Cloud": [
+                        "scale_normal"
+                    ],
+                    "Sunshine": [
+                        "scale_normal"
+                    ],
+                    "ALT": [
+                        "scale_normal"
+                    ],
+                    "Productions": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "0.24.2",
+            "algorithm_name": "Linear Regression",
+            "algorithm_short_name": "Linear",
+            "uid": "acfa8bac-dd4a-4282-99eb-d9705e67aaec",
+            "params": {
+                "model_type": "Linear",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "explain_level": 0
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_steps": 1,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "District": [
+                    "scale_normal"
+                ],
+                "Area": [
+                    "scale_normal"
+                ],
+                "Year": [
+                    "scale_normal"
+                ],
+                "Max_Temp": [
+                    "scale_normal"
+                ],
+                "Min_Temp": [
+                    "scale_normal"
+                ],
+                "Rainfall": [
+                    "scale_normal"
+                ],
+                "Humidity": [
+                    "scale_normal"
+                ],
+                "Wind": [
+                    "scale_normal"
+                ],
+                "Cloud": [
+                    "scale_normal"
+                ],
+                "Sunshine": [
+                    "scale_normal"
+                ],
+                "ALT": [
+                    "scale_normal"
+                ],
+                "Productions": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "scale_log_and_normal"
+            ],
+            "ml_task": "regression"
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.9,
+            "shuffle": true,
+            "X_path": "AutoML_40/X.data",
+            "y_path": "AutoML_40/y.data",
+            "results_path": "AutoML_40"
+        },
+        "learner": {
+            "model_type": "Linear",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "seed": 1235,
+            "explain_level": 0
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 0,
+        "name": "4_Linear",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "4_Linear/learner_fold_0.linear"
+    ],
+    "predictions_fname": "4_Linear/predictions_validation.csv",
+    "metric_name": "rmse",
+    "final_loss": 1.3949055116935025,
+    "train_time": 0.2379131317138672,
+    "is_stacked": false
+}

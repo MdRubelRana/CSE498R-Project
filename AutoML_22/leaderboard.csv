@@ -1,0 +1,9 @@
+name,model_type,metric_type,metric_value,train_time
+1_DecisionTree,Decision Tree,rmse,0.14464583828766822,0.5
+2_DecisionTree,Decision Tree,rmse,0.14092613434197465,0.48
+3_DecisionTree,Decision Tree,rmse,0.1409261343419746,0.55
+4_Linear,Linear,rmse,0.13314759206910073,0.61
+14_LightGBM,LightGBM,rmse,0.07714424028995513,3.33
+4_Linear_KMeansFeatures,Linear,rmse,0.1531489191374936,0.77
+15_LightGBM,LightGBM,rmse,0.0911547579020814,2.51
+Ensemble,Ensemble,rmse,0.07714424028995515,0.24
